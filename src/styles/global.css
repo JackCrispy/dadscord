@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.di {
+  background: rgba(15, 15, 15, 0.678);
+  border: 1px solid rgba(45,45,45,0);
+  border-radius: 3px;
+  padding: 10px;
+  width: 410px;
+  margin: 30px auto 0 350px;
+  z-index: 999;
+  transform: scale(1.15); 
+  transform-style: preserve-3d
+}
+
+.di-button {
+  align-items: center;
+  align-self: center;
+  background-color: #43b581;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  line-height: 20px;
+  margin-left: 10px;
+  min-width: 90px;
+  outline: 0;
+  padding: 2px 0;
+  width: auto;
+  transition: background-color .17s ease,color .17s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  top: -11px;
+}
+
+.di-button:hover {
+  color: #fff
+}
+
+.di-details div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.di-details {
+  align-items: stretch;
+  flex: 1 1 auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  transform: translateZ(20px)
+}
+
+.di-flex {
+  display: flex;
+}
+
+.di-d-details {
+  color: #72767d;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.di-d-details span {
+  margin-right: 8px;
+  outline: 0;
+}
+
+.di-d-details i {
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  margin-right: 4px;
+  width: 8px;
+}
+.di-d-d-online {
+  background-color: #43b581;
+}
+
+.di-d-details i {
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  margin-right: 4px;
+  width: 8px;
+}
+.di-d-d-offline {
+  background-color: #747f8d;
+}
+
+.di-d-name {
+  color: #f6f6f6;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 4px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.di-icon {
+  background-clip: padding-box;
+  background-position: 50%;
+  background-size: 100% 100%;
+  border-radius: 15px;
+  flex: 0 0 auto;
+  height: 50px;
+  margin-right: 10px;
+  width: 50px;
+  background-image: url('https://cdn.discordapp.com/icons/319560327719026709/a_09cf9ffccc42545de45441c2fb6e6973.gif');
+  transform: translateZ(20px);
+}
+
+.di-title {
+  color: #8e9297;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.di-button {
+  color: #fff;
+  background-color: #3ca374;
+}
+
+.grow, .mainmenu-submenu {
+  transition: all .2s ease-in-out;
+}
+
+.di:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.2); 
+  background: rgba(15, 15, 15, 0.788);
+}
